@@ -8,7 +8,6 @@ import getpass
 
 username = input('Please enter your username: ')
 password = getpass.getpass('Please enter your password: ')
-url = 'https://mbasic.facebook.com'
 url_give = input('Please provide the URL: ')
 search = ''
 
@@ -25,7 +24,6 @@ driver.get(url)
 
 if not url_give:
     search = input('Search for: ')
-
 
 driver.find_element_by_id('m_login_email').send_keys(username)
 driver.find_element_by_name('pass').send_keys(password)
