@@ -84,7 +84,6 @@ if len(comments) == 0:
 else:
     for x in range(len(comments)):
         print(comments[x])
-        print()
-
+        
 
 
